@@ -3,15 +3,8 @@ import { Sparkles, Zap, Layers } from "lucide-react";
 
 export function HeroSection() {
   return (
-    <section className="min-h-screen flex items-center justify-center px-6 pt-32">
+    <section className="min-h-screen flex items-center justify-center px-6" style={{ marginTop: '25vh' }}>
       <div className="max-w-6xl mx-auto text-center">
-        {/* Floating Icons */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <Sparkles className="absolute top-1/4 left-1/4 w-8 h-8 text-primary/30 animate-float" />
-          <Zap className="absolute top-1/3 right-1/4 w-6 h-6 text-gradient-end/40 animate-float" style={{ animationDelay: '2s' }} />
-          <Layers className="absolute bottom-1/3 left-1/3 w-7 h-7 text-primary-light/30 animate-float" style={{ animationDelay: '4s' }} />
-        </div>
-
         {/* Main Content */}
         <div className="space-y-8 animate-fade-in-up">
           {/* Headline */}
@@ -26,26 +19,18 @@ export function HeroSection() {
           {/* Subtext */}
           <div className="max-w-3xl mx-auto">
             <p className="text-xl md:text-2xl text-foreground/70 leading-relaxed">
-              Experience the future of design with AI-powered tools that transform your creative workflow. 
               From concept to completion, everything you need in one stunning platform.
             </p>
           </div>
 
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
+          {/* CTA Button */}
+          <div className="flex justify-center items-center pt-8">
             <Button 
               variant="gradient" 
               size="lg" 
               className="text-lg px-8 py-6"
             >
               Start Creating Now
-            </Button>
-            <Button 
-              variant="glass" 
-              size="lg" 
-              className="text-lg px-8 py-6"
-            >
-              Watch Demo
             </Button>
           </div>
 
