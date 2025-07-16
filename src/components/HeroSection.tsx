@@ -3,7 +3,7 @@ import { Sparkles, Zap, Layers } from "lucide-react";
 
 export function HeroSection() {
   return (
-    <section className="min-h-screen flex items-center justify-center px-6 pt-20">
+    <section className="min-h-screen flex items-center justify-center px-6 pt-32">
       <div className="max-w-6xl mx-auto text-center">
         {/* Floating Icons */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -36,7 +36,7 @@ export function HeroSection() {
             <Button 
               variant="gradient" 
               size="lg" 
-              className="text-lg px-8 py-6 animate-glow-pulse"
+              className="text-lg px-8 py-6"
             >
               Start Creating Now
             </Button>

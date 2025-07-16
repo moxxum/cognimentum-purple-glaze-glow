@@ -138,11 +138,11 @@
   }
   
   .glow-primary {
-    box-shadow: 0 0 40px hsl(var(--glow-primary) / 0.3);
+    box-shadow: 0 0 20px hsl(var(--glow-primary) / 0.15);
   }
   
   .glow-hover:hover {
-    box-shadow: 0 0 60px hsl(var(--glow-primary) / 0.5);
+    box-shadow: 0 0 40px hsl(var(--glow-primary) / 0.4);
   }
   
   .text-gradient {

@@ -29,7 +29,7 @@ export function Navigation() {
               <Button variant="ghost" className="hidden md:inline-flex">
                 Login
               </Button>
-              <Button variant="gradient" className="animate-glow-pulse">
+              <Button variant="gradient">
                 Get Started
               </Button>
             </div>
