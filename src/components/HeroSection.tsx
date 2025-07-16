@@ -10,7 +10,7 @@ export function HeroSection() {
           {/* Headline */}
           <div className="space-y-4">
             <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold leading-tight">
-              Your Entire Design Agency,
+              Your Design Agency,
               <br />
               <span className="text-gradient">In One Tab.</span>
             </h1>
